@@ -1,0 +1,149 @@
+@font-face {
+    font-family: font;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(./GeneralSans-Variable.ttf);
+}
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+
+.page1{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar-left{
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+    border-bottom: 2px solid rgb(249, 245, 245);
+    
+    
+}
+
+.navbar-left h2{
+    position: relative;
+    left: 5%;
+    top: 18%;
+    font-family: font;
+    font-weight: 500;
+    font-size: 25px;
+    
+    
+}
+
+.navbar-left p{
+    position: relative;
+    left: 5%;
+    top: 18%;
+    font-size: 15px;
+    border: 2px solid rgb(250, 246, 246);
+    border-radius:15px ;
+    padding: 4px;
+    background-color: rgb(246, 214, 199);
+}
+
+.navbar-left i{
+    position: relative;
+    left: 6%;
+    top: 18%;
+    font-size: 30px;
+}
+
+.navbar-right{
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.navbar-right a{
+    position: relative;
+    left: 50%;
+    top: 18%;
+    font-family: font;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navbar-right button{
+    position: relative;
+    left: 50%;
+    top: 18%;
+    font-family: font;
+    font-size: 13px;
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: rgb(248, 249, 250);
+}
+
+.Tag-line{
+    position: absolute;
+    top: 38%;
+    left:5%;
+    font-family: font2;
+    font-weight: 500;
+    
+    font-size: 90px;
+}
+
+.para{
+    position: absolute;
+    top: 70%;
+    left:5.5%;
+    font-family: font2;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.para1{
+    position: absolute;
+    top: 75%;
+    left:5.5%;
+    font-family: font2;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.service{
+    position: absolute;
+    top: 82%;
+    left:5%;
+    font-family: font2;
+    font-size: 15px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+}
