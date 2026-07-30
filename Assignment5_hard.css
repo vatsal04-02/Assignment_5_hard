@@ -221,6 +221,7 @@ html,body{
     padding: 60px;
 }
 
+    
 
 .work h4{
    position: absolute;
@@ -287,18 +288,128 @@ html,body{
    position: absolute;
    height: 100vh;
    width: 100%;
-   background-color: rgb(252, 130, 130);
-   display: flex;
+   
 }
 
-.img-card{
-    height: 200px;
-    width: 200px;
-    display: flex;
+
+.page3 h1{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    left: 5.5%;
+    font-size: 40px;
+    font-weight: 300;
+    top: -5%;
+
 
 }
 
 .page3 button{
+    position: relative;
     height: 50px;
-    left: 50%;
+    width: 100px;
+    left: 85%;
+    border-radius: 30px;
+    background-color:white ;
+    border: 2px solid black;
+    top: -18%;
 }
+
+.page3 button:hover{
+    background-color: black;
+    color: white;
+   
+}
+
+.img-card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    left: 7%;
+    top: -10%;
+   
+
+}
+
+.img1 img{
+    
+    height: 500px;
+    width: 650px;
+
+}
+
+.text1, .text2{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.img1 h4,
+.img2 h4
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size:20px ;
+}
+
+.img1 p{
+    
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50px;
+
+}
+
+.img2 p{
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.img1 p:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.img2 p:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.img2 img{
+
+    height: 500px;
+    width: 650px;
+}
+
+.img1,
+.img2{
+    overflow: hidden;
+    
+}
+
+.img1 img,
+.img2 img{
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+
+.img1 img:hover,
+.img2 img:hover{
+    transform: scale(1.08);
+}
+
+
+
+
