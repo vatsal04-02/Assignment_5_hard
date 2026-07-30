@@ -232,7 +232,7 @@ html,body{
 
 }
 
-.line{
+.line1{
     position: absolute;
    height: 1px;
    width: 100%;
@@ -245,7 +245,6 @@ html,body{
     position: absolute;
     width: 100%;
     overflow: hidden;
-    padding: px 0;
     top: 108%;
     
     
@@ -409,6 +408,125 @@ html,body{
 .img2 img:hover{
     transform: scale(1.08);
 }
+
+
+.page4{
+    
+   position: absolute;
+   height: 100vh;
+   width: 100%;
+   top: 305%;
+}
+
+
+.img-card2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    left: 7%;
+    top: -10%;
+   
+
+}
+
+.img3 img{
+    
+    height: 500px;
+    width: 650px;
+
+}
+
+.text3, .text4{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.img3 h4,
+.img4 h4
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size:20px ;
+}
+
+.img3 p{
+    
+    height: 30px;
+    width: 80px;
+    padding-left: 15px;
+    border: 2px solid black;
+    border-radius: 50px;
+
+
+}
+
+.img4 p{
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.img3 p:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.img4 p:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.img4 img{
+
+    height: 500px;
+    width: 650px;
+}
+
+.img3,
+.img4{
+    overflow: hidden;
+    
+}
+
+.img3 img,
+.img4 img{
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+
+.img3 img:hover,
+.img4 img:hover{
+    transform: scale(1.08);
+}
+
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    top: 300%;
+
+}
+
+
+.values h4{
+   position: absolute;
+   top: 120%;
+   left: -1%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 200;
+
+}
+
 
 
 
