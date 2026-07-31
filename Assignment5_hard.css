@@ -410,8 +410,8 @@ html,body{
 }
 
 .L2 h3, .L3 h3, .L4 h3, .L5 h3, .L6 h3{
-     font-size: 20px;
-     font-weight: 600;
+     font-size: 25px;
+     font-weight: 500;
      
 }
 
@@ -424,8 +424,8 @@ html,body{
 
 .L1 h3{
     margin-top: 10%;
-     font-size: 20px;
-        font-weight: 600;
+     font-size: 25px;
+        font-weight: 500;
 }
 
 
@@ -523,6 +523,9 @@ html,body{
     background-color: black;
     color: white;
 }
+
+           /* Team cards */
+
 
 .team-cards{
     display: flex;
@@ -675,6 +678,7 @@ html,body{
     width: 100%;
     padding: 30px 7% 80px;
     margin-top: 30px;
+    border-bottom: 2px solid black;
 }
 
 .info{
@@ -723,3 +727,90 @@ html,body{
     font-size: 15px;
 
 }
+
+.blog{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    position: absolute;
+    margin-top: 3%;
+    font-size: 20px;
+
+}
+
+.page10{
+    height: 100%;
+    width: 100%;
+    padding: 30px 7% 80px;
+    margin-top: 30px;
+}
+
+.insi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5.5%;
+}
+
+.insi h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.insi button{
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.insi button:hover{
+    background-color: black;
+    color: white;
+}
+
+.brand-img{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.B1,.B2, .B3, .B4{
+    margin-top: 20px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(93, 92, 92);
+    flex: 1 1 300px;
+}
+
+.B1 img, .B2 img, .B3 img, .B4 img{
+    height: 300px;
+    width: 320px;
+    max-width: 100%;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    
+}
+
+
+
+.B1 img:hover, .B2 img:hover{
+    transform: scale(1.08);
+   
+}
+
+.B3 img:hover, .B4 img:hover{
+    transform: scale(1.08);
+}
+
+.B1 h2,.B2 h2, .B3 h2, .B4 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.B1 p,.B2 p, .B3 p, .B4 p{
+    margin-top: 20px;
+}
+
