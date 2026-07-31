@@ -561,4 +561,62 @@ html,body{
 }
 
 
+.page8{
+    width: 100%;
+    padding: 30px 7% 80px;
+    margin-top: 50px;
+    
+}
 
+.first{
+   
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 120px;
+    
+
+}
+
+.first img{
+    margin-top:-15% ;
+}
+
+.second img{
+     margin-top:-12% ;
+}
+
+.first h1, .second h1{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: font2;
+}
+
+.first p, .second p{
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-family: font2;
+}
+
+.second{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 170px;
+    
+
+}
+
+.line6{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(142, 142, 142);
+}
+
+.page9{
+    width: 100%;
+    padding: 30px 7% 80px;
+    margin-top: 50px;
+}
