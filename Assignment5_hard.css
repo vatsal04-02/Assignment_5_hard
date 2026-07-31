@@ -579,7 +579,7 @@ html,body{
 }
 
 .first img{
-    margin-top:-15% ;
+    margin-top:-18% ;
 }
 
 .second img{
@@ -616,7 +616,55 @@ html,body{
 }
 
 .page9{
+    height: 100%;
     width: 100%;
     padding: 30px 7% 80px;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+.info{
+    height: 600px;
+    width: 1400px;
+    margin-left: -4%;
+    background-color:rgb(233, 242, 240) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: 30px;
+
+}
+
+.info-text h4{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+        font-size: 25px;
+
+}
+
+.info button{
+    height: 50px;
+    width: 150px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    margin-left:-30% ;
+    margin-top: 80px;
+}
+
+.info h6{
+    margin-left: -90%;
+    font-weight: 300;
+    font-size: 15px;
+
 }
